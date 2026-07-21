@@ -25,4 +25,4 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 
 > [!CAUTION]
 > I do not own the AFP-BodycamLens.fx file!  
-> It was taken from the [Alternate First Person](https://www.gta5-mods.com/ru/scripts/alternate-first-person-enhanced-legacy ) modification.
+> It was taken from the [Alternate First Person](https://www.gta5-mods.com/scripts/alternate-first-person-enhanced-legacy) modification.

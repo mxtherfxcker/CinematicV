@@ -23,6 +23,15 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 > [!IMPORTANT]  
 > After installing ReShade, you will not be able to use it in conjunction with DXVK!
 
+### Usage recommendations
+
+In the GTA V graphics settings, enable **FXAA** and:
+
+1. Enable **MSAA x8** (Recommended).
+2. Enable **MSAA x4** and **TXAA**.
+
+#
+
 > [!CAUTION]
 > I do not own the AFP-BodycamLens.fx file!  
 > It was taken from the [Alternate First Person](https://www.gta5-mods.com/scripts/alternate-first-person-enhanced-legacy) modification.

@@ -1,21 +1,8 @@
 /*=============================================================================
-    BodycamLens.fx  —  focused bodycam look for ReShade (GTA V Enhanced / DX12).
 
-    The effects real bodycam games (e.g. "Bodycam" on Steam, built in UE5) use to
-    mimic real body-worn camera footage — implemented as ONE clean ReShade pass:
+    AFP-BodycamLens.fx - focused bodycam look for ReShade (GTA V Legacy / Enhanced).
+    Copyright (C) Alternate First Person (EhssanDev). 2026.
 
-        1. Fisheye lens distortion   (FOV + Strength + Projection)
-        2. Vignette                  (rounded dark edges, fully adjustable)
-        3. Chromatic aberration      (subtle RGB split at the edges)
-        4. Film grain                (animated sensor noise, stronger in shadows)
-        5. Auto-exposure / HDR       (blows out highlights, deepens shadows like a
-                                      camera adjusting to the light)
-
-    Camera shake / head-bob and motion blur come from the MOD + game, not here.
-
-    Loads through the same ReShade NVE uses — no dxgi.dll, no NVE error.
-    INSTALL: copy into ...\reshade-shaders\Shaders\, open ReShade (Home),
-    Reload, tick BodycamLens.
 =============================================================================*/
 
 #include "ReShade.fxh"
@@ -137,7 +124,7 @@ float3 PS_BodycamLens(float4 pos : SV_Position, float2 texcoord : TEXCOORD) : SV
     float  r     = length(uv);
     float  edge  = saturate(r);
 
-    // --- 1) Fisheye warp (projection-based wide-angle remap) ---
+    // --- 1) Fisheye warp  ---
     float2 sampleUV = texcoord;
     bool   border   = false;
     if (FisheyeStrength > 0.001 && r > 1e-5)
@@ -184,7 +171,7 @@ float3 PS_BodycamLens(float4 pos : SV_Position, float2 texcoord : TEXCOORD) : SV
 
     float luma = dot(col, float3(0.299, 0.587, 0.114));
 
-    // --- 5) Auto exposure / HDR response (S-curve: lift highs, crush lows) ---
+    // --- 5) Auto exposure / HDR response (S-curve) ---
     if (AutoHDR > 0.001)
     {
         float3 hdr = col * col * (3.0 - 2.0 * col);   // smoothstep S-curve
@@ -220,7 +207,7 @@ technique BodycamLens <
     ui_label = "BodycamLens";
     ui_tooltip = "Bodycam look: fisheye, vignette, chromatic, grain, auto-exposure.\n"
                  "Toggle key F10 is synced with the mod's 'Bodycam Enabled' switch.";
-    toggle = 0x79;   // F10 virtual-key — the mod presses this to sync on/off
+    toggle = 0x79;   // F10 virtual-key - the mod presses this to sync on/off
 >
 {
     pass

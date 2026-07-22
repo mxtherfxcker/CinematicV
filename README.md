@@ -37,5 +37,8 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 > Be sure to adjust the brightness in the game's display settings! *(For me, it's ~50%)*.
 
 > [!CAUTION]
-> I do not own the AFP-BodycamLens.fx file!  
+> I do not own the `AFP-BodycamLens.fx` file!  
 > It was taken from the [Alternate First Person](https://www.gta5-mods.com/scripts/alternate-first-person-enhanced-legacy) modification.
+
+> [!CAUTION]
+> Unexpected behavior may occur when used in conjunction with other major graphical modifications! (such as **NVE** or **QuantV**)

@@ -11,13 +11,14 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 
 1. Download ReShade from the official [website](https://reshade.me/) or [repository](https://github.com/crosire/reshade) (see **tags**).   
 2. Setup ReShade for GTA V -
-   1. Select `GTA5.exe`.
-   2. Select "DirectX 10/11/12".
-   3. Provide path to `CinematicV.ini`.
-   4. Wait.
-3. Find and rename the `dxgi.dll` file to `dxgi.asi` in your GTA V folder.
-4. Place `AFP-BodycamLens.fx` in the following directory: `Your GTA V Folder`/`reshade-shaders`/`Shaders`/
-5. Enjoy :)
+   1. Run `ReShade_Setup_x.x.x.exe`.
+   2. Select `GTA5.exe`.
+   3. Select "DirectX 10/11/12".
+   4. Provide path to `CinematicV.ini`.
+   5. Wait.
+4. Find and rename the `dxgi.dll` file to `dxgi.asi` in your GTA V folder.
+5. Place `AFP-BodycamLens.fx` in the following directory: `Your GTA V Folder`/`reshade-shaders`/`Shaders`/
+6. Enjoy :)
 
 ### Usage recommendations
 

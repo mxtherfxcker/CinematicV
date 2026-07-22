@@ -12,9 +12,9 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
    > **For Developers:**  
    > You can also build ReShade yourself from the source code (~5 minutes).  
 3. Setup ReShade for GTA V -
-   1. Select GTA5.exe,
-   2. Select "DirectX 10/11/12",
-   3. Choose this .ini-preset,
+   1. Select GTA5.exe.
+   2. Select "DirectX 10/11/12".
+   3. Choose this .ini-preset.
    4. Wait.
 4. Rename dxgi.dll to dxgi.asi (GTA V main folder).
 5. Place `AFP-BodycamLens.fx` at the `root of GTA V` -> `reshade-shaders` -> `Shaders`.
@@ -25,10 +25,10 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 
 ### Usage recommendations
 
-In the GTA V graphics settings, enable **FXAA** and:
-
-1. Enable **MSAA x8** (Recommended).
-2. Enable **MSAA x4** and **TXAA**.
+1. In the GTA V graphics settings, enable **FXAA** and:
+   1. Enable **MSAA x8** (Recommended) **OR** Enable **MSAA x4** and **TXAA** *(if supported)*.
+   2. Make sure that **MSAA for reflections** is enabled (**x4** or **x8**).
+   3. In the "**Soft Shadows**" parameter, set the value to "**Max. soft**" or "**NVIDIA PCSS**" *(if supported)*.
 
 #
 

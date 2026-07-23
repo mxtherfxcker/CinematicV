@@ -30,20 +30,11 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 
 # Other Information
 
-> [!NOTE]
-> For Developers:
-> You can also build ReShade yourself from the source code (~5 minutes).
-
-> [!IMPORTANT]
-> After installing ReShade, you will not be able to use it in conjunction with DXVK!  
-> **Tested personally** on the Legacy version of GTA V.
-
 > [!IMPORTANT]
 > Be sure to adjust the brightness in the game's display settings! *(For me, it's ~50%)*.
 
 > [!CAUTION]
-> I do not own the `AFP-BodycamLens.fx` file!  
-> It was taken from the [Alternate First Person](https://www.gta5-mods.com/scripts/alternate-first-person-enhanced-legacy) modification.
-
-> [!CAUTION]
-> Unexpected behavior may occur when used in conjunction with other major graphical modifications! (such as **NVE** or **QuantV**)
+> 1. I do not own the `AFP-BodycamLens.fx` file!  
+>    It was taken from the [Alternate First Person](https://www.gta5-mods.com/scripts/alternate-first-person-enhanced-legacy) modification.  
+> 2. Unexpected behavior may occur when used in conjunction with other major graphical modifications! (such as **NVE** or **QuantV**).  
+> 3. After installing the preset, you may experience a **~30%** drop in performance!

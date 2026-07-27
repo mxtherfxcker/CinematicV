@@ -25,10 +25,11 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 ### Usage recommendations
 
 1. If you're running the **Legacy version**, make sure that "DirectX Version: **DirectX 11**" is selected in the GTA V graphics settings.
-2. Enable **FXAA** and:
-   1. Enable **MSAA x8** (Recommended) **OR** Enable **MSAA x4** and **TXAA** *(if supported)*.
-   2. Make sure that **MSAA for reflections** is enabled (**x4** or **x8**).
-   3. In the "**Soft Shadows**" parameter, set the value to "**Max. soft**" or "**NVIDIA PCSS**" *(if supported)*.  
+2. Enable:
+   1. **MSAA x8** (Recommended) or
+   2. **MSAA x4** and **TXAA** *(if supported)*.
+3. Make sure that **MSAA for reflections** is enabled (**x4** or **x8**).
+4. In the "**Soft Shadows**" parameter, set the value to "**Max. soft**" or "**NVIDIA PCSS**" *(if supported)*.  
 
 # Other Information
 

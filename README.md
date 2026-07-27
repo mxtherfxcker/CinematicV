@@ -1,13 +1,12 @@
 #  CinematicV 
 
-### Preview (Legacy)
-
+<p align="center">
 <a href="https://github.com/mxtherfxcker/CinematicV/releases/latest">
-<img width="1920" height="1080" alt="Preview #1" src="https://github.com/user-attachments/assets/3d78f006-e856-4ce3-ba69-6ce6ea109c9c" />
-<img width="1920" height="1080" alt="Preview #2" src="https://github.com/user-attachments/assets/aefe0416-03ed-4b04-b833-fc415aafa7d1" />
+   <img width="200" height="auto" alt="Preview #1" src="logo.png" />
 </a>
+</p>
 
-### How to install  
+## How to install  
 **You need:**  
 Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)  
 
@@ -22,7 +21,7 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 5. Place `AFP-BodycamLens.fx` in the following directory: `Your GTA V Folder`/`reshade-shaders`/`Shaders`/
 6. Enjoy :)
 
-### Usage recommendations
+## Usage recommendations
 
 1. If you're running the **Legacy version**, make sure that "DirectX Version: **DirectX 11**" is selected in the GTA V graphics settings.
 2. Enable:
@@ -31,7 +30,7 @@ Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)
 3. Make sure that **MSAA for reflections** is enabled (**x4** or **x8**).
 4. In the "**Soft Shadows**" parameter, set the value to "**Max. soft**" or "**NVIDIA PCSS**" *(if supported)*.  
 
-# Other Information
+## Other Information
 
 > [!IMPORTANT]
 > Be sure to adjust the brightness in the game's display settings! *(For me, it's ~50%)*.

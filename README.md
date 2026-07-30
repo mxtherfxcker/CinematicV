@@ -10,7 +10,7 @@
 **You need:**  
 Alexander Blade's **ScriptHookV** or **Ultimate ASI Loader** (x64)  
 
-1. Download ReShade from the official [website](https://reshade.me/) or [repository](https://github.com/crosire/reshade/tags).  
+1. Download ReShade from the official [website](https://reshade.me/).
 2. Setup ReShade for GTA V -
    1. Run `ReShade_Setup_x.x.x.exe`.
    2. Provide path to `GTA5.exe` or choose `GTA V` from the list.
